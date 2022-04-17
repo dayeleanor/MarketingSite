@@ -30,20 +30,15 @@ footer, hgroup, menu, nav, section {
 	display: block;}
 
 
-#header{
-	width:100%;
-	Height:100px;
-	background:url('https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
-}
+
 
 body {
 	line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
-}
-
+li {
+	display: inline;
+  }
 blockquote, q {
 	quotes: none;
 }
@@ -3387,7 +3382,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/bannerimage.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3408,14 +3403,7 @@ input, select, textarea {
 	}
 
 		#banner:after {
-			-moz-transition: opacity 2.5s ease;
-			-webkit-transition: opacity 2.5s ease;
-			-ms-transition: opacity 2.5s ease;
-			transition: opacity 2.5s ease;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			
 			pointer-events: none;
 			background-color: #242943;
 			content: '';
@@ -3434,10 +3422,7 @@ input, select, textarea {
 		}
 
 		#banner > .inner {
-			-moz-transition: opacity 1.5s ease, -moz-transform 0.5s ease-out, -moz-filter 0.5s ease, -webkit-filter 0.5s ease;
-			-webkit-transition: opacity 1.5s ease, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
-			-ms-transition: opacity 1.5s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
-			transition: opacity 1.5s ease, transform 0.5s ease-out, filter 0.5s ease, -webkit-filter 0.5s ease;
+			
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
